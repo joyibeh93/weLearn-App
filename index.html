@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- fontawesome link -->
+    <script src="https://kit.fontawesome.com/d825fc213e.js" crossorigin="anonymous"></script>
+    <!-- normalise css -->
+    <link rel="stylesheet" href="./vendour/normalise.css" />
+    <link rel="stylesheet" href="./css/style.css" />
+    <title>Landing Page</title>
+</head>
+
+<body>
+    <header>
+        <nav>
+            <div class="nav-logo">weLearn</div>
+            <div class="nav-links">
+                <ul class="nav-ul-link">
+                    <li><a href="#v"> Home</a></li>
+                    <li><a href="#Choose-Us">About Us</a></li>
+                    <li><a href="#">CONTACT</a></li>
+                    <li><a href="#courses-Offered">Course</a></li>
+                </ul>
+            </div>
+
+            <button class="btn-signin" class="button" id="btn1">
+                    Sign In
+                </button>
+        </nav>
+    </header>
+    <main>
+        <section class="image-header" id="home">
+            <div class="bg-image"></div>
+            <div class="header-info">
+                <h1>
+                    "Tell me and I forget, teach me and I may remember, involve me and I learn."― Benjamin Franklin
+                </h1>
+                <button class="btn-register" id="btn2">Register</button>
+            </div>
+            <!-- SIGN IN POP UP BOX -->
+            <div class="popup" id="popup">
+                <div class="popup-content">
+                    <img src="./images/image-passport.png" alt="png-image" class="head-image" />
+                    <img src="./images/close-icon-13.png" alt="image-close" class="image-close" id="close-popup" />
+                    <input type="text" placeholder="Enter your username" />
+                    <input type="password" placeholder="enter your password" />
+                    <a href="learn.html" class="button1"> Login</a>
+                </div>
+            </div>
+            <!--REGISTERPOP UP BOX -->
+
+            <div class="popup" id="popup1">
+                <div class="popup-content popup-content1">
+                    <img src="./images/image-passport.png" alt="png-image" class="head-image" />
+                    <img src="./images/close-icon-13.png" alt="image-close" class="image-close" id="close-popup1" />
+                    <input type="text" placeholder="Enter your firstname" />
+                    <input type="text" placeholder="Enter your Lastname" />
+                    <input type="text" placeholder="Enter your emailaddress" />
+                    <input type="password" placeholder="enter your password" />
+                    <input type="password" placeholder="enter your confirmed password" />
+                    <label for="cars">Choose a Course:</label>
+                    <select id="Courses-Offered" name="course">
+                            <option value="web-development">
+                                web-development
+                            </option>
+                            <option value="UI/UX">UI/UX</option>
+                            <!-- <option value="fiat">Fiat</option>
+                            <option value="audi">Audi</option> -->
+                        </select>
+
+                    <a href="learn.html" class="button1">Register</a>
+                </div>
+            </div>
+        </section>
+        <section class="Why-Choose-Us" id="Choose-Us">
+            <div>
+                <h2>Why Choose Us</h2>
+                <p class="chose-details">
+                    Excellent communication service is the recurring hallmark of our business and we recognize each customer as an individual who wants individual service. For the convenience of our clients, we are always responsive and exactly to the point so they don't
+                    get confused with any information we provide. While we are working with you, our foremost objective is to be hand-in-hand with you, which helps us to build and satisfy according to the way you want. Imagine has its terms that when
+                    clients approach, the ultimate priority is communication.
+                </p>
+                <div class="image-illustrator">
+                    <div class="illustrator-learn col-2">
+                        <img src="./images/organised video.svg" alt="undraw-organised-image" />
+                        <p>Online Lectures and Video</p>
+                    </div>
+                    <div class="illustrator-time col-2">
+                        <img src="./images/time-management.svg" alt="time-management-image" />
+                        <p>Learn at your Pace</p>
+                    </div>
+                    <div class="illustrator-assessment col-2">
+                        <img src="./images/online-test.svg" alt="online-test-svg" />
+                        <p>Test your knowledge</p>
+                    </div>
+                    <div class="illustrator-communication col-2">
+                        <img src="./images/start-build-site.svg" alt="Build site" />
+                        <p>Build Life Project</p>
+                    </div>
+
+                    <!-- <div class="illustrator-communication">
+                        <img src="./images/communication.svg" alt="communication-svg">
+                    </div>                  -->
+                </div>
+            </div>
+        </section>
+        <section id="courses-Offered">
+            <h2>Courses Offered</h2>
+            <div class="courses-offered-info">
+                <div class="wed-dev col-3">
+                    <div class="web-dev-image col-img">
+                        <img src="./images/web-development.svg" alt="lady-image" />
+                    </div>
+                    <p>Web Development</p>
+                    <p><a href="#"> Read More</a></p>
+                </div>
+                <div class="UI/UX col-3">
+                    <div class="userExperience-image col-img">
+                        <img src="./images/userExperience.svg" alt="userExperience-image" />
+                    </div>
+                    <p>User Interface/User Experinec</p>
+                    <p><a href="#"> Read More</a></p>
+                </div>
+                <div class="Data-sciene col-3">
+                    <div class="data-science-image col-img">
+                        <img src="./images/Data-Science.svg" alt="Data-Science-image" />
+                    </div>
+                    <p>Data-Science</p>
+                    <p><a href="#"> Read More</a></p>
+                </div>
+            </div>
+        </section>
+        <section class="contact-us-section">
+            <div>
+                <div></div>
+                <div></div>
+                <div></div>
+            </div>
+        </section>
+    </main>
+    <footer class="learning-footer">
+        <div class="footer-icon">
+            <i class="fa-brands fa-square-facebook"></i>
+            <i class="fa-brands fa-twitter"></i>
+            <i class="fa-brands fa-youtube"></i>
+            <i class="fa-brands fa-linkedin"></i>
+            <i class="fa-brands fa-instagram"></i>
+            <i class="fa-solid fa-envelope"></i>
+        </div>
+        <p>&copy;ibeh joy chinwendu-courtesy of Girls Code Academy</p>
+    </footer>
+    <script src="./css/app.js"></script>
+</body>
+
+</html>
