@@ -1,0 +1,91 @@
+@media only screen and (min-width: 992px) and (max-width: 1190px) {
+    .course-recommended {
+        width: 100%;
+        margin: 1.25rem 3.25rem;
+    }
+    .text-message {
+        margin: 0 3.25rem;
+    }
+}
+
+@media only screen and (min-width: 601px) and (max-width: 850px) {
+    .col-md-6 {
+        margin: 5px 10px;
+    }
+    .text-message {
+        font-size: 0.825rem;
+        margin: 0 25%;
+        width: 70%;
+    }
+    .more-info-links li {
+        margin: 2rem 0.925rem;
+        list-style: none;
+        font-weight: 800;
+        font-size: 1rem;
+    }
+    .more-info-container {
+        margin: 0 0.725rem;
+    }
+    .more-info-container p {
+        font-size: 18px;
+        width: 90%;
+        margin: 5% 5%;
+    }
+}
+
+@media only screen and (max-width: 600px) {
+    .listed-course {
+        display: flex;
+        align-items: flex-start;
+        flex-direction: row;
+        flex-wrap: wrap;
+        box-sizing: border-box;
+    }
+    .skill1 {
+        margin: 10px auto;
+        padding: 0.3125rem 6rem;
+        text-align: justify;
+        font-size: 1rem;
+    }
+    .course-recommended {
+        margin: 0 auto;
+        display: flex;
+        flex-direction: column;
+        box-sizing: border-box;
+    }
+    .col-sm-12 {
+        margin: 10px auto;
+    }
+    .text-message {
+        font-size: 0.625rem;
+        margin: 0 15%;
+        width: 70%;
+    }
+    .more-info-links {
+        display: flex;
+        flex-direction: row;
+        justify-content: flex-start;
+        align-items: flex-start;
+    }
+    .more-info-links li {
+        margin: 0.625rem;
+        list-style: none;
+        font-weight: 600;
+        font-size: 0.625rem;
+    }
+    .more-info-container {
+        margin: 0 0.625rem;
+    }
+    .more-info-container p {
+        font-size: 14px;
+        width: 80%;
+        margin: 4% 8%;
+    }
+    .footerElement {
+        display: flex;
+        flex-direction: column;
+    }
+    .footer-icons i {
+        margin: 10px;
+    }
+}
