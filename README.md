@@ -1,1 +1,1 @@
-<P> Please select the main ,do not use the master</p>
+<P> Please select the main branch ,do not use the master branch</p>
